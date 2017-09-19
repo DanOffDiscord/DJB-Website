@@ -1,2 +1,2 @@
 # DJB-Website
-My personal website. Feel free to use, you don't even need to credit me. ;)
+My personal website. Feel free to use, as well as you credit Lazer for the awesome recreation ;)
