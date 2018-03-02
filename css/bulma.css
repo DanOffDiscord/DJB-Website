@@ -1253,6 +1253,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   color: #4a4a4a;
   display: block;
   padding: 1.25rem;
+  position: relative;
 }
 
 .box:not(:last-child) {
@@ -3952,6 +3953,7 @@ a.box:active {
   display: block;
   height: auto;
   width: 100%;
+  position: relative;
 }
 
 .image.is-square img, .image.is-1by1 img, .image.is-4by3 img, .image.is-3by2 img, .image.is-16by9 img, .image.is-2by1 img {
@@ -4565,6 +4567,7 @@ a.tag:hover {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125;
+  position: relative;
 }
 
 .title strong {
