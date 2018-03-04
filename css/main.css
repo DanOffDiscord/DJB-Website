@@ -13,3 +13,9 @@
 p {
 	position: relative;
 }
+.devices {
+	background-color: red;
+}
+.projects {
+	background-color: lightblue;
+}
