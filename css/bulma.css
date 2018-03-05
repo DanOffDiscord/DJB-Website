@@ -6201,12 +6201,12 @@ a.nav-item:not(.button).is-tab.is-active {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: transparent;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 1rem;
   position: relative;
-  background: lightblue;
+  background: transparent;
   transition-property: background;
   transition-duration: 0.5s;
   transition-timing-function: linear;
@@ -6215,7 +6215,7 @@ a.nav-item:not(.button).is-tab.is-active {
 a.navbar-item:hover, a.navbar-item.is-active,
 .navbar-link:hover,
 .navbar-link.is-active {
-  background-color: grey;
+  background-color: lightblue;
 }
 
 .navbar-item {
