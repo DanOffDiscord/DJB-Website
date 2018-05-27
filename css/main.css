@@ -31,3 +31,7 @@ a.navbar-item:hover {
 .media-content {
 	overflow-y: hidden;
 }
+a:hover .fas, a:hover .fab {
+	transform: scale(1.25);
+	color: lightblue;
+}
