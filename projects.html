@@ -129,15 +129,13 @@
             <div class="media">
               <div class="media-left">
                 <figure class="image is-128x128">
-                  <img src="img/astrid.png" alt="Astrid's Avatar">
+                  <img src="img/Lyric.png" alt="Lyric's Avatar">
                 </figure>
               </div>
               <div class="media-content">
-                <p class="title is-3">Astrid</p>
-                <p id="astrid">
-                  <strong>Astrid</strong> is a multi-station radio bot for Discord. As with Bolty, I sometimes help out with commands, and put ideas forward to the main developers, Mason (Mason#5455), Ken (Hydrogen#0002), and Ethan (Ethan#1426). Also, I sometimes work on the web dashboard for Astrid, which will come out soon.
-                  <br>
-                  Astrid is currently at {{servers}} servers, and grows every single day.
+                <p class="title is-3">Lyric</p>
+                <p id="Lyric">
+                  <strong>Lyric</strong> is a music bot for Discord. As with Bolty, I sometimes help out with commands, and put ideas forward to the main developers, Mason (Mason#5455), Hexabyte (Hexabyte#3169), Ethan (Ethan.#8006), and Anidox (Anidox#6280). We hope Lyric will be a successor to a past project, Astrid, as it will be sharded, meaning faster speeds, and less downtime.  Also, I sometimes work on the web dashboard for Lyric, which will come out soon.
                 </p>
               </div>
             </div>
@@ -150,13 +148,6 @@
       <a href="https://github.com/StupidDan/"><i class="fab fa-github"></i></a>
     </footer>
   </div>
-  <script>
-    fetch("https://astridbot.gq/api").then(res => {
-      res.json().then(data => {
-        document.body.innerHTML = document.body.innerHTML.replace("{{servers}}", data.guilds)
-      });
-    });
-  </script>
   <style>
     .main {
       background-color: #6495ED;
