@@ -17,37 +17,41 @@
   <link rel="icon" type="image/png" href="favicon.png">
   <title>Dan Bee - Projects</title>
 </head>
-
 <body>
-  <nav class="navbar">
-    <div class="navbar-end">
-      <a href="index.html" class="navbar-item">
-        <p>
-          Back Home
-        </p>
-      </a>
-      <a href="devices.html" class="navbar-item">
-        <p>
-          Devices
-        </p>
-      </a>
-      <a href="faq.html" class="navbar-item">
-        <p>
-          FAQ
-        </p>
-      </a>
-      <a href="comission-me.html" class="navbar-item">
-        <p>
-          Comission Me
-        </p>
-      </a>
-      <a href="https://blog.danjamesbee.tk" class="navbar-item">
-        <p>
-          Blog
-        </p>
-      </a>
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-end">
+        <a href="/" class="navbar-item">
+          <p>
+            Back Home
+          </p>
+        </a>
+        <a href="faq.html" class="navbar-item">
+          <p>
+            FAQ
+          </p>
+        </a>
+        <a href="comission-me.html" class="navbar-item">
+          <p>
+            Comission Me
+          </p>
+        </a>
+        <a href="devices.html" class="navbar-item">
+          <p>
+            Devices
+          </p>
+        </a>
+        <a href="https://blog.danjamesbee.tk" class="navbar-item">
+          <p>
+            Blog
+          </p>
+        </a>
+      </div>
     </div>
-  </nav>
   <div class="header">
     <div class="animated fadeIn">
       <h1 class="title is-1 has-text-centered has-text-white">Projects</h1>
@@ -104,55 +108,12 @@
           </div>
         </div>
       </div>
-      <div class="columns">
-        <div class="column">
-          <div class="box">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-128x128">
-                  <img src="img/charlestoncounty.png" style="border-radius: 100%" alt="Charleston County Icon">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-3">CharlestonCounty-Website</p>
-                <p>
-                  <strong>CharlestonCounty-Website</strong> was a website made for a small Roblox roleplaying group a friend, and I was asked to create a cool website for them. I was quite happy with the finished product, however, I still add additions to this day.
-                  <br>
-                  If you're interested in the finished product, feel free to visit it <a href="https://charlestoncounty.tk/">here</a>. You can also view the source code, and contribute if you so wish, <a href="https://github.com/StupidDan/CharlestonCounty-Website">here</a>.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="box">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-128x128">
-                  <img src="img/lyric.png" alt="Lyric's Avatar">
-                </figure>
-              </div>
-              <div class="media-content">
-                <p class="title is-3">Lyric</p>
-                <p id="Lyric">
-                  <strong>Lyric</strong> is a music bot for Discord. As with Bolty, I sometimes help out with commands, and put ideas forward to the main developers, Mason (Mason#5455), Hexabyte (Hexabyte#3169), Ethan (Ethan.#8006), and Anidox (Anidox#6280). We hope Lyric will be a successor to a past project, Astrid, as it will be sharded, meaning faster speeds, and less downtime.  Also, I sometimes work on the web dashboard for Lyric, which will come out soon.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     <footer class="has-text-centered has-text-white" style="padding: 3.5em">
       <a href="https://twitter.com/DanFromDiscord"><i class="fab fa-twitter"></i></a>
       <a href="https://github.com/StupidDan/"><i class="fab fa-github"></i></a>
     </footer>
   </div>
-  <style>
-    .main {
-      background-color: #6495ED;
-      min-height: 73.7vh;
-    }
-  </style>
+  <script src="js/navbar.js"></script>
 </body>
 </html>
