@@ -48,3 +48,6 @@ a:hover .fas, a:hover .fab {
 	transform: scale(1.25);
 	color: lightblue;
 }
+footer a {
+	color: white;
+}
